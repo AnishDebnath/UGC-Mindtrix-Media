@@ -1,0 +1,6 @@
+{
+  "name": "WizzChat - Discover Profiles & Meet New People",
+  "description": "WizzChat is a social networking platform designed to help you meet new people, discover profiles, and build genuine friendships online.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
