@@ -30,7 +30,7 @@ export const CtaSection: React.FC<CtaSectionProps> = ({
 
   return (
     <section
-      className="relative w-full pt-16 pb-28 overflow-visible select-none"
+      className="relative w-full pt-16 pb-28 overflow-visible"
       style={{
         backgroundImage:
           'linear-gradient(180deg, #ffffff 0%, rgba(255,255,255,0.65) 55%, rgba(255,255,255,0) 100%)',
@@ -49,7 +49,7 @@ export const CtaSection: React.FC<CtaSectionProps> = ({
         </button>
 
         {/* Center: A SPACE MADE FOR EVERYTHING THAT MAKES YOU */}
-        <h3 className="font-display text-lg sm:text-2xl md:text-[26px] lg:text-[28px] font-black tracking-tight text-neutral-900 uppercase text-center px-4">
+        <h3 className="font-display text-lg sm:text-2xl md:text-[26px] lg:text-[28px] font-black tracking-normal text-neutral-900 uppercase text-center px-4">
           A SPACE MADE FOR EVERYTHING THAT MAKES YOU
         </h3>
 
@@ -76,7 +76,7 @@ export const CtaSection: React.FC<CtaSectionProps> = ({
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-4xl mx-auto flex flex-col items-center">
           {/* Massive 2-Line Stacked Headline */}
-          <h2 className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-[88px] font-black tracking-tight text-neutral-900 uppercase leading-[0.88] mb-12 sm:mb-16">
+          <h2 className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-[88px] font-black tracking-normal text-neutral-900 uppercase leading-[1.3] mb-12 sm:mb-16">
             COME AS YOU ARE<br />WELCOME HERE.
           </h2>
 

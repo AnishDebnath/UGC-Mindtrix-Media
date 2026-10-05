@@ -33,18 +33,18 @@ export const MeetTheWorldSection: React.FC<MeetTheWorldSectionProps> = ({
           {/* Left Column: Heading, Description, Button */}
           <div className="lg:col-span-5 flex flex-col items-start justify-between min-h-[440px]">
             <div>
-              <h2 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-[76px] font-black tracking-tight text-neutral-900 uppercase leading-[0.88] mb-8">
+              <h2 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-[76px] font-black tracking-normal text-neutral-900 uppercase leading-[1.3] mb-8">
                 MEET THE<br />WORLD,ONE<br />CHAT AT A<br />TIME
               </h2>
             </div>
 
             <div className="max-w-md flex flex-col items-start gap-4 mt-auto">
-              <p className="text-neutral-800 text-sm sm:text-base leading-relaxed font-normal">
+              <p className="text-neutral-800 text-base sm:text-lg leading-relaxed font-normal">
                 Mindtrix Media is a creative studio crafting UGC ads, reels, and product showcases that turn viewers into customers.
               </p>
               <button
                 onClick={onDiscoverMore}
-                className="px-6 py-2.5 bg-[#ded9ff] hover:bg-[#d0c9ff] text-neutral-900 font-display text-xs font-black tracking-wider uppercase rounded-full transition-all active:scale-95 shadow-sm cursor-pointer"
+                className="px-7 py-3 bg-[#ded9ff] hover:bg-[#d0c9ff] text-neutral-900 font-display text-sm font-black tracking-wider uppercase rounded-full transition-all active:scale-95 shadow-sm cursor-pointer"
               >
                 DISCOVER MORE
               </button>

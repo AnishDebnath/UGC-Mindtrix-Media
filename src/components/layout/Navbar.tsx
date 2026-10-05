@@ -12,7 +12,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   onScrollTo
 }) => {
   return (
-    <header className="w-full pt-6 pb-4 px-4 sm:px-8 max-w-6xl mx-auto flex items-center justify-between text-neutral-900 text-sm select-none">
+    <header className="w-full pt-6 pb-4 px-4 sm:px-8 max-w-6xl mx-auto flex items-center justify-between text-neutral-900 text-sm">
       {/* Navigation Links (Left to Center) */}
       <nav className="flex items-center gap-6 sm:gap-10 md:gap-14 font-medium text-xs sm:text-[14px] text-neutral-800">
         <button

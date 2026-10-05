@@ -95,7 +95,7 @@ export const HeroSection: React.FC<HeroSectionProps> = () => {
       <div className="relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] overflow-hidden pt-8 sm:pt-12 pb-20">
         {/* Section Headline */}
         <div className="text-center mb-8 sm:mb-12 px-4">
-          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-[56px] font-black tracking-tight text-[#111111] uppercase leading-none">
+          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-[56px] font-black tracking-normal text-[#111111] uppercase leading-[1.3]">
             CREATIVE UGC ADS. VIRAL REELS. PRODUCT SHOWCASES.
           </h2>
         </div>
@@ -167,7 +167,7 @@ export const HeroSection: React.FC<HeroSectionProps> = () => {
               {/* 3. Center Slim Clean iPhone Mockup */}
               <div className="relative z-25 w-[285px] sm:w-[305px] md:w-[320px] rounded-[48px] bg-black p-[5px] shadow-[0_30px_70px_-15px_rgba(0,0,0,0.5),0_0_0_1px_rgba(255,255,255,0.15)] border-[4px] border-[#18181a]">
                 {/* Inner Screen Canvas */}
-                <div className="relative rounded-[42px] overflow-hidden bg-gradient-to-b from-[#dbeef8] via-[#e6e8fa] to-[#ded9f8] text-neutral-900 flex flex-col h-[595px] sm:h-[630px] select-none shadow-inner justify-between p-3.5">
+                <div className="relative rounded-[42px] overflow-hidden bg-gradient-to-b from-[#dbeef8] via-[#e6e8fa] to-[#ded9f8] text-neutral-900 flex flex-col h-[595px] sm:h-[630px] shadow-inner justify-between p-3.5">
 
                   {/* ZONE 1: TOP PART */}
                   <div className="flex flex-col gap-2.5 z-20 w-full">

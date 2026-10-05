@@ -24,18 +24,18 @@ export const CommunitySection: React.FC<CommunitySectionProps> = ({
       {/* Top Header Row */}
       <div className="flex flex-col md:flex-row md:items-start justify-between gap-8 mb-12 sm:mb-16">
         <div>
-          <h2 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-[76px] font-black tracking-tight text-neutral-900 uppercase leading-[0.88]">
+          <h2 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-[76px] font-black tracking-normal text-neutral-900 uppercase leading-[1.3]">
             THE MINDTRIX<br />COMMUNITY
           </h2>
         </div>
 
         <div className="max-w-md flex flex-col items-start gap-4">
-          <p className="text-neutral-800 text-sm sm:text-base leading-relaxed font-normal">
+          <p className="text-neutral-800 text-base sm:text-lg leading-relaxed font-normal">
             Mindtrix Media is a creative community rooted in respect and understanding, where every creator and brand can feel heard and included.
           </p>
           <button
             onClick={onMeetCommunity}
-            className="px-6 py-2.5 bg-[#ded9ff] hover:bg-[#d0c9ff] text-neutral-900 font-display text-xs font-black tracking-wider uppercase rounded-full transition-all active:scale-95 shadow-sm cursor-pointer"
+            className="px-7 py-3 bg-[#ded9ff] hover:bg-[#d0c9ff] text-neutral-900 font-display text-sm font-black tracking-wider uppercase rounded-full transition-all active:scale-95 shadow-sm cursor-pointer"
           >
             MEET OUR CREATORS
           </button>
@@ -43,7 +43,7 @@ export const CommunitySection: React.FC<CommunitySectionProps> = ({
       </div>
 
       {/* 3D Isometric Perspective Stage in 16:9 Ratio */}
-      <div className="relative w-full max-w-[940px] mx-auto py-12 sm:py-16 flex items-center justify-center [perspective:1600px] overflow-visible select-none">
+      <div className="relative w-full max-w-[940px] mx-auto py-12 sm:py-16 flex items-center justify-center [perspective:1600px] overflow-visible">
 
         {/* Tilted 3D Stage */}
         <div

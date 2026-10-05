@@ -21,19 +21,19 @@ export const WhatWeStandForSection: React.FC<WhatWeStandForSectionProps> = ({
         <div className="flex flex-col md:flex-row md:items-start justify-between gap-8 mb-14">
           {/* Left Big Stacked Headline */}
           <div>
-            <h2 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-[76px] font-black tracking-tight text-neutral-900 uppercase leading-[0.88]">
+            <h2 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-[76px] font-black tracking-normal text-neutral-900 uppercase leading-[1.3]">
               WHAT WE<br />STAND FOR
             </h2>
           </div>
 
           {/* Right Description & Action */}
           <div className="max-w-md flex flex-col items-start gap-4">
-            <p className="text-neutral-800 text-sm sm:text-base leading-relaxed font-normal">
+            <p className="text-neutral-800 text-base sm:text-lg leading-relaxed font-normal">
               Mindtrix Media is a creative studio crafting UGC ads, reels, and product showcases that turn viewers into customers.
             </p>
             <button
               onClick={onDiscoverMore}
-              className="px-6 py-2.5 bg-[#ded9ff] hover:bg-[#d0c9ff] text-neutral-900 font-display text-xs font-black tracking-wider uppercase rounded-full transition-all active:scale-95 shadow-sm cursor-pointer"
+              className="px-7 py-3 bg-[#ded9ff] hover:bg-[#d0c9ff] text-neutral-900 font-display text-sm font-black tracking-wider uppercase rounded-full transition-all active:scale-95 shadow-sm cursor-pointer"
             >
               DISCOVER MORE
             </button>
@@ -47,7 +47,7 @@ export const WhatWeStandForSection: React.FC<WhatWeStandForSectionProps> = ({
           <div className="w-full aspect-square bg-[#f0f7fc] rounded-[32px] p-5 sm:p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
             <SwirlIcon />
             <div>
-              <h3 className="font-display text-3xl sm:text-[32px] lg:text-[36px] font-black tracking-tight text-neutral-900 uppercase leading-[1.05] mb-6">
+              <h3 className="font-display text-3xl sm:text-[32px] lg:text-[36px] font-black tracking-normal text-neutral-900 uppercase leading-[1.3] mb-6">
                 BRINGING PEOPLE<br />CLOSER
               </h3>
               <p className="text-neutral-600 text-sm sm:text-[15px] leading-relaxed font-normal">
@@ -60,7 +60,7 @@ export const WhatWeStandForSection: React.FC<WhatWeStandForSectionProps> = ({
           <div className="w-full aspect-square bg-[#f9f0fb] rounded-[32px] p-5 sm:p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
             <SwirlIcon />
             <div>
-              <h3 className="font-display text-3xl sm:text-[32px] lg:text-[36px] font-black tracking-tight text-neutral-900 uppercase leading-[1.05] mb-6">
+              <h3 className="font-display text-3xl sm:text-[32px] lg:text-[36px] font-black tracking-normal text-neutral-900 uppercase leading-[1.3] mb-6">
                 SELF-WORTH AND<br />CONFIDENCE
               </h3>
               <p className="text-neutral-600 text-sm sm:text-[15px] leading-relaxed font-normal">
@@ -79,7 +79,7 @@ export const WhatWeStandForSection: React.FC<WhatWeStandForSectionProps> = ({
           <div className="w-full aspect-square bg-[#f4faea] rounded-[32px] p-5 sm:p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
             <SwirlIcon />
             <div>
-              <h3 className="font-display text-3xl sm:text-[32px] lg:text-[36px] font-black tracking-tight text-neutral-900 uppercase leading-[1.05] mb-6">
+              <h3 className="font-display text-3xl sm:text-[32px] lg:text-[36px] font-black tracking-normal text-neutral-900 uppercase leading-[1.3] mb-6">
                 THE JOY OF REAL<br />CONVERSATIONS
               </h3>
               <p className="text-neutral-600 text-sm sm:text-[15px] leading-relaxed font-normal">
@@ -92,7 +92,7 @@ export const WhatWeStandForSection: React.FC<WhatWeStandForSectionProps> = ({
           <div className="w-full aspect-square bg-[#edf7f9] rounded-[32px] p-5 sm:p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
             <SwirlIcon />
             <div>
-              <h3 className="font-display text-3xl sm:text-[32px] lg:text-[36px] font-black tracking-tight text-neutral-900 uppercase leading-[1.05] mb-6">
+              <h3 className="font-display text-3xl sm:text-[32px] lg:text-[36px] font-black tracking-normal text-neutral-900 uppercase leading-[1.3] mb-6">
                 MEET REAL PEOPLE<br />YOUR AGE
               </h3>
               <p className="text-neutral-600 text-sm sm:text-[15px] leading-relaxed font-normal">

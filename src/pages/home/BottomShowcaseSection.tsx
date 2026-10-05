@@ -17,7 +17,7 @@ export const BottomShowcaseSection: React.FC<BottomShowcaseSectionProps> = ({
   const [fireClicked, setFireClicked] = useState(false);
 
   return (
-    <section className="relative w-full py-28 px-4 sm:px-6 lg:px-8 overflow-hidden select-none bg-white">
+    <section className="relative w-full py-28 px-4 sm:px-6 lg:px-8 overflow-hidden bg-white">
       {/* Giant Typography Watermark: MINDTRIX */}
       <div className="absolute inset-0 flex items-start justify-center select-none pointer-events-none z-0">
         <svg
