@@ -1,4 +1,5 @@
 import React from 'react';
+import mindtrixLogo from '@/assets/logo.png';
 
 interface NavbarProps {
   onOpenLogin: () => void;
@@ -7,7 +8,6 @@ interface NavbarProps {
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
-  onOpenLogin,
   onOpenVideoChat,
   onScrollTo
 }) => {
@@ -47,26 +47,12 @@ export const Navbar: React.FC<NavbarProps> = ({
         </button>
       </nav>
 
-      {/* Right Unified Dark Capsule: [ f  G    |  Log in ] */}
-      <button
-        onClick={onOpenLogin}
-        className="bg-[#1a1b1e] hover:bg-black text-white px-4 sm:px-5 py-2 rounded-full flex items-center gap-3 sm:gap-3.5 shadow-md cursor-pointer transition-all active:scale-95 group shrink-0"
-      >
-        {/* Social Icons Stack */}
-        <div className="flex items-center gap-2.5 text-xs text-neutral-200">
-          <span className="font-bold text-xs leading-none hover:text-white transition-colors">f</span>
-          <span className="font-bold text-xs leading-none hover:text-white transition-colors">G</span>
-          <span className="text-sm leading-none hover:text-white transition-colors"></span>
-        </div>
-
-        {/* Thin Divider Line */}
-        <div className="w-[1px] h-3.5 bg-neutral-600" />
-
-        {/* Log In Label */}
-        <span className="text-xs sm:text-[13px] font-medium text-white tracking-wide">
-          Log in
-        </span>
-      </button>
+      {/* Right: Mindtrix Media Logo */}
+      <img
+        src={mindtrixLogo}
+        alt="Mindtrix Media"
+        className="h-10 sm:h-12 w-auto object-contain shrink-0"
+      />
     </header>
   );
 };

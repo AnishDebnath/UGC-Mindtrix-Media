@@ -1,5 +1,6 @@
 import React from 'react';
 import { Instagram, Facebook } from 'lucide-react';
+import mindtrixLogo from '@/assets/logo.png';
 
 interface FooterProps {
   onOpenDownload: (platform: 'ios' | 'android' | 'all') => void;
@@ -13,16 +14,18 @@ export const Footer: React.FC<FooterProps> = ({
   return (
     <footer className="w-full pt-16 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto select-none">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 items-start">
-        
-        {/* Column 1 (Left): WIZZCHAT Logo + Bottom Copyright (No extra description, exact to screenshot) */}
+
+        {/* Column 1 (Left): MINDTRIX Logo + Bottom Copyright (No extra description, exact to screenshot) */}
         <div className="md:col-span-4 flex flex-col justify-between min-h-[170px]">
           <div>
-            <h3 className="font-display text-4xl sm:text-5xl font-black tracking-tight text-neutral-900 uppercase">
-              WIZZCHAT
-            </h3>
+            <img
+              src={mindtrixLogo}
+              alt="Mindtrix Media"
+              className="h-10 sm:h-12 w-auto object-contain shrink-0"
+            />
           </div>
           <div className="text-xs sm:text-[13px] text-neutral-800 font-normal flex items-center gap-1.5 mt-8 md:mt-0">
-            <span>ⓒ 2026 WizzChat. All rights reserved.</span>
+            <span>ⓒ 2026 Mindtrix Media. All rights reserved.</span>
           </div>
         </div>
 
@@ -124,10 +127,10 @@ export const Footer: React.FC<FooterProps> = ({
           </ul>
         </div>
 
-        {/* Column 4: DOWNLOAD WIZZCHAT */}
+        {/* Column 4: DOWNLOAD MINDTRIX */}
         <div className="md:col-span-3">
           <h4 className="font-display text-lg sm:text-xl font-black uppercase tracking-tight text-neutral-900 mb-3.5">
-            DOWNLOAD WIZZCHAT
+            DOWNLOAD MINDTRIX
           </h4>
           <div className="flex flex-col gap-2 text-xs sm:text-[13px] text-neutral-800 font-normal">
             <button

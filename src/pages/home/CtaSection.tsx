@@ -29,7 +29,15 @@ export const CtaSection: React.FC<CtaSectionProps> = ({
   };
 
   return (
-    <section className="relative w-full pt-16 pb-28 overflow-visible select-none">
+    <section
+      className="relative w-full pt-16 pb-28 overflow-visible select-none"
+      style={{
+        backgroundImage:
+          'linear-gradient(180deg, #ffffff 0%, rgba(255,255,255,0.65) 55%, rgba(255,255,255,0) 100%)',
+        backgroundSize: '100% 320px',
+        backgroundRepeat: 'no-repeat'
+      }}
+    >
       {/* 1. Top Sub-Bar Row */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between w-full pb-6">
         {/* Left: About us */}

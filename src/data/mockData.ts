@@ -1,4 +1,4 @@
-import { Profile, Testimonial, StandForCard } from '@/types';
+import { Profile, Testimonial, StandForCard, MarqueeProduct } from '@/types';
 
 import matthiasCardImg from '@/assets/images/card_matthias_1790977103900.jpg';
 import johannaCardImg from '@/assets/images/card_johanna_1790977118147.jpg';
@@ -154,7 +154,7 @@ export const STAND_FOR_CARDS: StandForCard[] = [
   {
     id: '4',
     title: 'MEET REAL PEOPLE YOUR AGE',
-    description: 'At WizzChat, we’re building a platform where real, genuine connections first.',
+    description: 'At Mindtrix Media, we’re building content where real, genuine stories come first.',
     bgClass: 'bg-[#eaf4fa]/90 border border-[#d6e9f5]/60 shadow-sm',
     textClass: 'text-neutral-900'
   }
@@ -220,4 +220,48 @@ export const COMMUNITY_TILES = [
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80',
     isOnline: true
   }
+];
+
+import lipstickFlatLayImg from '@/assets/UGC product image/lipstick/Create_cosmetics_flat_lay_photog.jpg';
+import lipstickMarbleImg from '@/assets/UGC product image/lipstick/Lipstick_advertisement_on_marble.jpg';
+import lipstickEditorialImg from '@/assets/UGC product image/lipstick/Lipstick_product_editorial_photo.jpg';
+import lipstickLuxuryImg from '@/assets/UGC product image/lipstick/Luxury_lipstick_advertising_phot.jpg';
+import menPerfumeCreatingAdvImg from '@/assets/UGC product image/men-perfume/Creating_perfume_bottle_adv.jpg';
+import menPerfumeCreatingAdvertisImg from '@/assets/UGC product image/men-perfume/Creating_perfume_bottle_advertis.jpg';
+import menPerfumePosterImg from '@/assets/UGC product image/men-perfume/Perfume_bottle_advertising_poster.jpg';
+import menPerfumeEditorialImg from '@/assets/UGC product image/men-perfume/Perfume_bottle_editorial_photogr.jpg';
+import menPerfumeLibraryImg from '@/assets/UGC product image/men-perfume/Perfume_bottle_in_luxury_library.jpg';
+import menPerfumeMindtrixImg from '@/assets/UGC product image/men-perfume/Photographing_Mindtrix_Media_per.jpg';
+import skincareStoneImg from '@/assets/UGC product image/skincare/Skincare_advertisement_on_stone.jpg';
+import skincarePhotographImg from '@/assets/UGC product image/skincare/Skincare_advertising_photograph.jpg';
+import skincareAdvertisemenImg from '@/assets/UGC product image/skincare/Skincare_product_advertisemen.jpg';
+import skincareAdvertisementImg from '@/assets/UGC product image/skincare/Skincare_product_advertisement.jpg';
+import skincareCommercialImg from '@/assets/UGC product image/skincare/Skincare_product_commercial_photo.jpg';
+import womenPerfumeCreatingImg from '@/assets/UGC product image/women-perfume/Creating_perfume_advertising_pho.jpg';
+import womenPerfumeCommercialImg from '@/assets/UGC product image/women-perfume/Perfume_bottle_commercial_photog.jpg';
+import womenPerfumeFlatLayImg from '@/assets/UGC product image/women-perfume/Perfume_bottle_flat-lay_photograph.jpg';
+import womenPerfumePedestalImg from '@/assets/UGC product image/women-perfume/Perfume_bottle_on_stone_pedestal.jpg';
+import womenPerfumePlaceImg from '@/assets/UGC product image/women-perfume/Perfume_product_photograph_place.jpg';
+
+export const MARQUEE_PRODUCTS: MarqueeProduct[] = [
+  { id: 'lip-1', src: lipstickFlatLayImg, label: 'Lipstick' },
+  { id: 'lip-2', src: lipstickMarbleImg, label: 'Lipstick' },
+  { id: 'lip-3', src: lipstickEditorialImg, label: 'Lipstick' },
+  { id: 'lip-4', src: lipstickLuxuryImg, label: 'Lipstick' },
+  { id: 'mp-1', src: menPerfumeCreatingAdvImg, label: "Men's Perfume" },
+  { id: 'mp-2', src: menPerfumeCreatingAdvertisImg, label: "Men's Perfume" },
+  { id: 'mp-3', src: menPerfumePosterImg, label: "Men's Perfume" },
+  { id: 'mp-4', src: menPerfumeEditorialImg, label: "Men's Perfume" },
+  { id: 'mp-5', src: menPerfumeLibraryImg, label: "Men's Perfume" },
+  { id: 'mp-6', src: menPerfumeMindtrixImg, label: "Men's Perfume" },
+  { id: 'skin-1', src: skincareStoneImg, label: 'Skincare' },
+  { id: 'skin-2', src: skincarePhotographImg, label: 'Skincare' },
+  { id: 'skin-3', src: skincareAdvertisemenImg, label: 'Skincare' },
+  { id: 'skin-4', src: skincareAdvertisementImg, label: 'Skincare' },
+  { id: 'skin-5', src: skincareCommercialImg, label: 'Skincare' },
+  { id: 'wp-1', src: womenPerfumeCreatingImg, label: "Women's Perfume" },
+  { id: 'wp-2', src: womenPerfumeCommercialImg, label: "Women's Perfume" },
+  { id: 'wp-3', src: womenPerfumeFlatLayImg, label: "Women's Perfume" },
+  { id: 'wp-4', src: womenPerfumePedestalImg, label: "Women's Perfume" },
+  { id: 'wp-5', src: womenPerfumePlaceImg, label: "Women's Perfume" }
 ];

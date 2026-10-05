@@ -1,6 +1,6 @@
-# WizzChat Landing
+# Mindtrix Media
 
-Landing page for WizzChat — React 19 + Vite 8 + TypeScript + Tailwind CSS 4.
+Showcase site for Mindtrix Media — creative UGC ads, reels, and product showcases. React 19 + Vite 8 + TypeScript + Tailwind CSS 4.
 
 ## Requirements
 

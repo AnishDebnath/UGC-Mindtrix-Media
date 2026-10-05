@@ -33,3 +33,9 @@ export interface StandForCard {
   bgClass: string;
   textClass: string;
 }
+
+export interface MarqueeProduct {
+  id: string;
+  src: string;
+  label: string;
+}

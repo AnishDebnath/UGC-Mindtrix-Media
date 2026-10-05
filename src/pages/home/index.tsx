@@ -31,7 +31,7 @@ export function HomePage() {
         onDiscoverMore={noop}
       />
 
-      {/* The WizzChat Community Section */}
+      {/* The Mindtrix Community Section */}
       <CommunitySection
         onOpenVideoChat={noop}
         onMeetCommunity={() => scrollToId('testimonials')}
